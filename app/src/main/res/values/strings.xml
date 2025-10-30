@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Mybook</string>
+    <string name="ErrorMsgAdd">Error al agregar el elemento</string>
+    <string name="ErrorMsgUpdate">Error al actualizar el elemento</string>
+    <string name="ErrorMsgGetAll">Error al obtener todos los elementos</string>
+    <string name="ErrorMsgGetById">Error al obtener el elemento por ID</string>
+    <string name="ErrorMsgRemove">Error al eliminar el elemento</string>
+
+    <string name="ErrorMsgLogin">Error en el inicio de sesión</string>
+    <string name="ErrorMsgRegistro">Error al registrar usuario</string>
+    <string name="UsuarioNoEncontrado">Usuario no encontrado</string>
+    <string name="EmailYaExiste">El email ya está registrado</string>
+
+    <string name="ErrorMsgAgregarLibro">Error al agregar el libro</string>
+    <string name="ErrorMsgActualizarLibro">Error al actualizar el libro</string>
+    <string name="ErrorMsgObtenerLibros">Error al obtener los libros</string>
+    <string name="ErrorMsgBuscarLibros">Error en la búsqueda de libros</string>
+    <string name="ErrorMsgEliminarLibro">Error al eliminar el libro</string>
+    <string name="LibroNoEncontrado">Libro no encontrado</string>
+
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_registro">Registrarse</string>
+    <string name="btn_agregar_libro">Agregar Libro</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_volver">Volver</string>
+
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_titulo">Título del libro</string>
+    <string name="hint_autor">Autor</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="hint_ruta_pdf">Ruta del PDF</string>
+
+    <string name="titulo_login">Inicio de Sesión</string>
+    <string name="titulo_registro">Registro de Usuario</string>
+    <string name="titulo_lista_libros">Mis Libros</string>
+    <string name="titulo_agregar_libro">Agregar Nuevo Libro</string>
+    <string name="titulo_editar_libro">Editar Libro</string>
+    <string name="mensaje_bienvenida">¡Bienvenido a la app de libros!</string>
+    <string name="mensaje_libro_agregado">Libro agregado exitosamente</string>
+    <string name="mensaje_libro_actualizado">Libro actualizado exitosamente</string>
+    <string name="mensaje_libro_eliminado">Libro eliminado exitosamente</string>
+    <string name="mensaje_sin_libros">No tienes libros registrados</string>
+    <string name="mensaje_login_exitoso">Inicio de sesión exitoso</string>
+    <string name="mensaje_registro_exitoso">Registro exitoso</string>
+
+    <string name="validacion_email_invalido">Correo electrónico inválido</string>
+    <string name="validacion_password_corta">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="validacion_titulo_vacio">El título no puede estar vacío</string>
+    <string name="validacion_campo_requerido">Este campo es requerido</string>
+
+</resources>
