@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp">
+
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="160dp"
+            android:contentDescription="@string/btn_volver"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivBookCoverDetail"
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/hint_titulo"
+            app:layout_constraintTop_toBottomOf="@id/ivBack"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+
+        <TextView
+            android:id="@+id/tvBookTitleDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/Sinopsis"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="@id/ivBookCoverDetail"
+            app:layout_constraintStart_toEndOf="@id/ivBookCoverDetail"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvBookAuthor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/author"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/tvBookTitleDetail"
+            app:layout_constraintStart_toStartOf="@id/tvBookTitleDetail"
+            app:layout_constraintEnd_toEndOf="@id/tvBookTitleDetail" />
+
+        <TextView
+            android:id="@+id/tvBookSeries"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/series"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/tvBookAuthor"
+            app:layout_constraintStart_toStartOf="@id/tvBookTitleDetail"
+            app:layout_constraintEnd_toEndOf="@id/tvBookTitleDetail" />
+
+        <TextView
+            android:id="@+id/tvBookGenre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/Types"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/tvBookSeries"
+            app:layout_constraintStart_toStartOf="@id/tvBookTitleDetail"
+            app:layout_constraintEnd_toEndOf="@id/tvBookTitleDetail" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_continuar"
+            android:backgroundTint="#E0E0E0"
+            android:textColor="@android:color/darker_gray"
+            app:cornerRadius="20dp"
+            app:layout_constraintTop_toBottomOf="@id/tvBookGenre"
+            app:layout_constraintStart_toStartOf="@id/tvBookTitleDetail" />
+
+
+        <TextView
+            android:id="@+id/tvSynopsisTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/Sinopsis"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/ivBookCoverDetail"
+            app:layout_constraintStart_toStartOf="@id/ivBookCoverDetail" />
+
+        <TextView
+            android:id="@+id/tvSynopsisContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/Content_Sinopsis"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/tvSynopsisTitle"
+            app:layout_constraintStart_toStartOf="@id/tvSynopsisTitle"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
