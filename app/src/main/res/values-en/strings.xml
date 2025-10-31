@@ -27,7 +27,6 @@
     <string name="hint_password">Password</string>
     <string name="hint_name">Name</string>
     <string name="hint_titulo">Book Title</string>
-    <string name="hint_autor">Author</string>
     <string name="hint_descripcion">Description</string>
     <string name="hint_ruta_pdf">PDF Path</string>
     <string name="titulo_login">Login</string>
@@ -46,4 +45,16 @@
     <string name="validacion_password_corta">Password must be at least 6 characters</string>
     <string name="validacion_titulo_vacio">Title cannot be empty</string>
     <string name="validacion_campo_requerido">This field is required</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="Sinopsis">"Synopsis "</string>
+    <string name="series">Series</string>
+    <string name="Types">Types</string>
+    <string name="author">Autor</string>
+    <string name="btn_continuar">Continue</string>
+    <string name="Content_Sinopsis">Content</string>
+    <string name="btn_select_book">Select book</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_actualizar">Update</string>
+    <string name="scan_book">Scan Book</string>
 </resources>
