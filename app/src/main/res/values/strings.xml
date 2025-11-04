@@ -30,7 +30,6 @@
     <string name="hint_password">Contraseña</string>
     <string name="hint_name">Nombre</string>
     <string name="hint_titulo">Título del libro</string>
-    <string name="hint_autor">Autor</string>
     <string name="hint_descripcion">Descripción</string>
     <string name="hint_ruta_pdf">Ruta del PDF</string>
 
@@ -51,5 +50,16 @@
     <string name="validacion_password_corta">La contraseña debe tener al menos 6 caracteres</string>
     <string name="validacion_titulo_vacio">El título no puede estar vacío</string>
     <string name="validacion_campo_requerido">Este campo es requerido</string>
-
+    <string name="hint_confirm_password">Confirme la contraseña</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="Sinopsis">"Sinopsis "</string>
+    <string name="series">Serie</string>
+    <string name="Types">Tipos</string>
+    <string name="author">Autor</string>
+    <string name="btn_continuar">continuar</string>
+    <string name="Content_Sinopsis">Contenido</string>
+    <string name="btn_select_book">Seleccione el libro</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="scan_book">Escanear libro</string>
 </resources>
