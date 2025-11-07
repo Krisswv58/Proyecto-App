@@ -2,10 +2,71 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">My Book</string>
-    <style name="Base.Theme.MyBook" parent="Theme.Material3.DayNight.NoActionBar">
+    <string name="Content_Sinopsis">Contenido</string>
+    <string name="DialogMessageDelete">¿Está seguro que desea eliminar este libro de su colección? Esta acción es irreversible.</string>
+    <string name="DialogMessageUpdate">¿Está seguro que desea actualizar la información de este libro?</string>
+    <string name="EmailYaExiste">El email ya está registrado</string>
+    <string name="ErrorMsgActualizarLibro">Error al actualizar el libro</string>
+    <string name="ErrorMsgAdd">Error al agregar el elemento</string>
+    <string name="ErrorMsgAgregarLibro">Error al agregar el libro</string>
+    <string name="ErrorMsgBuscarLibros">Error en la búsqueda de libros</string>
+    <string name="ErrorMsgEliminarLibro">Error al eliminar el libro</string>
+    <string name="ErrorMsgGetAll">Error al obtener todos los elementos</string>
+    <string name="ErrorMsgGetById">Error al obtener el elemento por ID</string>
+    <string name="ErrorMsgImageLoad">Error al cargar la imagen. Intente de nuevo.</string>
+    <string name="ErrorMsgLogin">Error en el inicio de sesión</string>
+    <string name="ErrorMsgNoImageSelected">Debe seleccionar una imagen para el libro.</string>
+    <string name="ErrorMsgObtenerLibros">Error al obtener los libros</string>
+    <string name="ErrorMsgRegistro">Error al registrar usuario</string>
+    <string name="ErrorMsgRemove">Error al eliminar el elemento</string>
+    <string name="ErrorMsgUpdate">Error al actualizar el elemento</string>
+    <string name="LibroNoEncontrado">Libro no encontrado</string>
+    <string name="MsgNoResultsFound">No se encontraron libros con ese título.</string>
+    <string name="Sinopsis">"Sinopsis "</string>
+    <string name="Types">Tipos</string>
+    <string name="UsuarioNoEncontrado">Usuario no encontrado</string>
+    <string name="app_name">Mybook</string>
+    <string name="author">Autor</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="btn_agregar_libro">Agregar Libro</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_continuar">continuar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_registro">Registrarse</string>
+    <string name="btn_select_book">Seleccione el libro</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_volver">Volver</string>
+    <string name="hint_confirm_password">Confirme la contraseña</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_ruta_pdf">Ruta del PDF</string>
+    <string name="hint_titulo">Título del libro</string>
+    <string name="mensaje_bienvenida">¡Bienvenido a la app de libros!</string>
+    <string name="mensaje_libro_actualizado">Libro actualizado exitosamente</string>
+    <string name="mensaje_libro_agregado">Libro agregado exitosamente</string>
+    <string name="mensaje_libro_eliminado">Libro eliminado exitosamente</string>
+    <string name="mensaje_login_exitoso">Inicio de sesión exitoso</string>
+    <string name="mensaje_registro_exitoso">Registro exitoso</string>
+    <string name="mensaje_sin_libros">No tienes libros registrados</string>
+    <string name="scan_book">Escanear libro</string>
+    <string name="series">Serie</string>
+    <string name="titulo_agregar_libro">Agregar Nuevo Libro</string>
+    <string name="titulo_editar_libro">Editar Libro</string>
+    <string name="titulo_lista_libros">Mis Libros</string>
+    <string name="titulo_login">Inicio de Sesión</string>
+    <string name="titulo_registro">Registro de Usuario</string>
+    <string name="validacion_campo_requerido">Este campo es requerido</string>
+    <string name="validacion_email_invalido">Correo electrónico inválido</string>
+    <string name="validacion_password_corta">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="validacion_titulo_vacio">El título no puede estar vacío</string>
+    <style name="Base.Theme.Mybook" parent="Theme.Material3.DayNight.NoActionBar">
         
         
     </style>
-    <style name="Theme.MyBook" parent="Base.Theme.MyBook"/>
+    <style name="Theme.Mybook" parent="Base.Theme.Mybook"/>
 </resources>

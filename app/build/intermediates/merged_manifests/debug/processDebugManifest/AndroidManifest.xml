@@ -26,7 +26,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.MyBook" >
+        android:theme="@style/Theme.Mybook" >
+        <activity
+            android:name="cr.ac.utn.mybook.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="cr.ac.utn.mybook.AddEditBookActivity"
+            android:exported="false" />
         <activity
             android:name="cr.ac.utn.mybook.MainActivity"
             android:exported="true" >

@@ -62,4 +62,10 @@
     <string name="btn_send">Enviar</string>
     <string name="btn_actualizar">Actualizar</string>
     <string name="scan_book">Escanear libro</string>
+    <string name="DialogMessageUpdate">¿Está seguro que desea actualizar la información de este libro?</string>
+    <string name="DialogMessageDelete">¿Está seguro que desea eliminar este libro de su colección? Esta acción es irreversible.</string>
+    <string name="ErrorMsgImageLoad">Error al cargar la imagen. Intente de nuevo.</string>
+    <string name="ErrorMsgNoImageSelected">Debe seleccionar una imagen para el libro.</string>
+    <string name="MsgNoResultsFound">No se encontraron libros con ese título.</string>
+
 </resources>
