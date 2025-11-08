@@ -3,9 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    >
-
+    android:background="#FFFFFF">
 
     <ImageView
         android:id="@+id/ivBack"
@@ -13,61 +11,92 @@
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
+        android:contentDescription="@string/btn_volver"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/btn_volver" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toTopOf="@id/ivBack"
         app:layout_constraintBottom_toBottomOf="@id/ivBack"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnSelectBook"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="48dp"
-        android:text="@string/btn_select_book"
-        android:textColor="#8D6E63"
-        app:iconTint="#8D6E63"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvTitle"
-        app:strokeColor="#8D6E63" />
+        app:layout_constraintTop_toTopOf="@id/ivBack" />
+
+    <ImageView
+        android:id="@+id/ivBookCover"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
+        android:background="#DCDCDC"
+        android:contentDescription="@string/hint_titulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tilDescription"
+        android:id="@+id/tilTitulo"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="24dp"
-        android:hint="@string/hint_descripcion"
+        android:layout_marginEnd="48dp"
+        android:hint="@string/hint_titulo"
         app:boxStrokeColor="#8D6E63"
         app:hintTextColor="#8D6E63"
-        app:layout_constraintTop_toBottomOf="@id/btnSelectBook"
-        app:layout_constraintStart_toStartOf="@id/btnSelectBook"
-        app:layout_constraintEnd_toEndOf="@id/btnSelectBook">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivBookCover">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etDescription"
+            android:id="@+id/etTitulo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="top"
-            android:lines="3" />
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilAutor"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/author"
+        app:boxStrokeColor="#8D6E63"
+        app:hintTextColor="#8D6E63"
+        app:layout_constraintEnd_toEndOf="@id/tilTitulo"
+        app:layout_constraintStart_toStartOf="@id/tilTitulo"
+        app:layout_constraintTop_toBottomOf="@id/tilTitulo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilRutaPdf"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_ruta_pdf"
+        app:boxStrokeColor="#8D6E63"
+        app:hintTextColor="#8D6E63"
+        app:layout_constraintEnd_toEndOf="@id/tilTitulo"
+        app:layout_constraintStart_toStartOf="@id/tilTitulo"
+        app:layout_constraintTop_toBottomOf="@id/tilAutor">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etRutaPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -80,9 +109,9 @@
         android:hint="@string/Sinopsis"
         app:boxStrokeColor="#8D6E63"
         app:hintTextColor="#8D6E63"
-        app:layout_constraintTop_toBottomOf="@id/tilDescription"
-        app:layout_constraintStart_toStartOf="@id/btnSelectBook"
-        app:layout_constraintEnd_toEndOf="@id/btnSelectBook"
+        app:layout_constraintTop_toBottomOf="@id/tilRutaPdf"
+        app:layout_constraintStart_toStartOf="@id/tilRutaPdf"
+        app:layout_constraintEnd_toEndOf="@id/tilRutaPdf"
         app:layout_constraintBottom_toTopOf="@id/glButtons">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -100,7 +129,6 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_end="112dp"/>
 
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEliminar"
         android:layout_width="wrap_content"
@@ -111,13 +139,13 @@
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toTopOf="@id/btnEnviar"
         app:layout_constraintStart_toStartOf="@id/tilSynopsis"
-        app:layout_constraintEnd_toStartOf="@id/btnEditar"/>
+        app:layout_constraintEnd_toStartOf="@id/btnActualizar"/>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnEditar"
+        android:id="@+id/btnActualizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_editar"
+        android:text="@string/btn_actualizar"
         android:backgroundTint="#E0E0E0"
         android:textColor="@android:color/darker_gray"
         app:cornerRadius="20dp"
@@ -130,9 +158,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:backgroundTint="#E0E0E0"
+        android:backgroundTint="#8D6E63"
         android:text="@string/btn_send"
-        android:textColor="@android:color/darker_gray"
+        android:textColor="@android:color/white"
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="@id/btnEliminar"
         app:layout_constraintHorizontal_bias="0.0"
@@ -140,17 +168,17 @@
         app:layout_constraintTop_toTopOf="@id/glButtons" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnActualizar"
+        android:id="@+id/btnCancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="#E0E0E0"
-        android:text="@string/btn_actualizar"
+        android:text="@string/btn_cancel"
         android:textColor="@android:color/darker_gray"
         app:cornerRadius="20dp"
-        app:layout_constraintEnd_toEndOf="@id/btnEditar"
+        app:layout_constraintEnd_toEndOf="@id/btnActualizar"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@id/btnEditar"
+        app:layout_constraintStart_toStartOf="@id/btnActualizar"
         app:layout_constraintTop_toTopOf="@id/btnEnviar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

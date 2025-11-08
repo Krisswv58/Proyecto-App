@@ -57,4 +57,9 @@
     <string name="btn_send">Send</string>
     <string name="btn_actualizar">Update</string>
     <string name="scan_book">Scan Book</string>
+    <string name="DialogMessageUpdate">Are you sure you want to update this book\'s information?</string>
+    <string name="DialogMessageDelete">Are you sure you want to remove this book from your collection? This action is irreversible.</string>
+    <string name="ErrorMsgImageLoad">Error loading image. Please try again.</string>
+    <string name="ErrorMsgNoImageSelected">You must select an image for the book.</string>
+    <string name="MsgNoResultsFound">No books were found with that title.</string>
 </resources>
