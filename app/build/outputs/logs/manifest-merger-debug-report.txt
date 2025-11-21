@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Cristy\.gradle\caches\8.13\transforms\913a7c24d5bbdaac71424170302ac55c\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Cristy\.gradle\caches\8.13\transforms\485c23a834304a0df9b12dbfc47afda9\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\Cristy\.gradle\caches\8.13\transforms\d14e100d1c5c70d5e013074d4427d834\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
@@ -56,9 +56,35 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Cristy\.gradle\caches\8.13\tra
 		INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:4:5-65
+	android:name
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:4:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:5:5-107
+	android:maxSdkVersion
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:5:78-104
+	android:name
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:6:5-108
+	android:maxSdkVersion
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:6:79-105
+	android:name
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:7:22-73
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:8:5-85
+	android:required
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:8:58-82
+	android:name
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:8:19-57
 application
-ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:5:5-29:19
-INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:5:5-29:19
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:9:5-31:19
+INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:9:5-31:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Cristy\.gradle\caches\8.13\transforms\913a7c24d5bbdaac71424170302ac55c\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Cristy\.gradle\caches\8.13\transforms\913a7c24d5bbdaac71424170302ac55c\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Cristy\.gradle\caches\8.13\transforms\485c23a834304a0df9b12dbfc47afda9\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -80,49 +106,43 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Cr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\Cristy\.gradle\caches\8.13\transforms\b98da12cb285419290b2d68fd6febbab\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:14:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:13:9-44
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:17:9-44
 	android:dataExtractionRules
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:7:9-65
-activity#cr.ac.utn.mybook.EditProfileActivity
-ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:14:9-16:40
-	android:exported
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:16:13-37
-	android:name
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:15:13-48
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:11:9-65
 activity#cr.ac.utn.mybook.AddEditBookActivity
-ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:19:9-21:39
 	android:exported
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:18:13-48
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:20:13-48
 activity#cr.ac.utn.mybook.MainActivity
-ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml:28:27-74
 uses-sdk
 INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Cristy\AndroidStudioProjects\Mybook\app\src\main\AndroidManifest.xml
