@@ -21,6 +21,7 @@ import java.util.UUID
 
 
 private const val REQUEST_CODE_PICK_IMAGE = 101
+private const val REQUEST_CODE_CAPTURE_IMAGE = 102
 
 class AddEditBookActivity : AppCompatActivity() {
 
@@ -35,6 +36,7 @@ class AddEditBookActivity : AppCompatActivity() {
     private lateinit var btnUpdate: Button
     private lateinit var btnDelete: Button
     private lateinit var btnCancel: Button
+
 
 
     private lateinit var libroController: LibroController
@@ -73,7 +75,7 @@ class AddEditBookActivity : AppCompatActivity() {
 
     private fun setListeners() {
         ivBack.setOnClickListener { finish() }
-        ivBookCover.setOnClickListener { pickImageFromGallery() }
+        ivBookCover.setOnClickListener { showImageSourceDialog() }
         btnSave.setOnClickListener { saveBook() }
         btnUpdate.setOnClickListener { showUpdateDialog() }
         btnDelete.setOnClickListener { showDeleteDialog() }
@@ -117,17 +119,30 @@ class AddEditBookActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == REQUEST_CODE_PICK_IMAGE && resultCode == Activity.RESULT_OK && data != null) {
-            val imageUri = data.data
-            try {
-                val bitmap = MediaStore.Images.Media.getBitmap(this.contentResolver, imageUri)
-                ivBookCover.setImageBitmap(bitmap)
-            } catch (e: Exception) {
-                Log.e("AddEditBookActivity", "Error loading image: ${e.message}")
-                Toast.makeText(this, "Error al cargar la imagen. Intente de nuevo.", Toast.LENGTH_SHORT).show()
+        if (resultCode == Activity.RESULT_OK && data != null) {
+            when (requestCode) {
+                REQUEST_CODE_PICK_IMAGE -> {
+                    val imageUri = data.data
+                    try {
+                        val bitmap = MediaStore.Images.Media.getBitmap(this.contentResolver, imageUri)
+                        ivBookCover.setImageBitmap(bitmap)
+                    } catch (e: Exception) {
+                        Log.e("AddEditBookActivity", "Error loading image: ${e.message}")
+                        Toast.makeText(this, "Error al cargar la imagen. Intente de nuevo.", Toast.LENGTH_SHORT).show()
+                    }
+                }
+                REQUEST_CODE_CAPTURE_IMAGE -> {
+                    val bitmap = data.extras?.get("data") as? Bitmap
+                    if (bitmap != null) {
+                        ivBookCover.setImageBitmap(bitmap)
+                    } else {
+                        Toast.makeText(this, "Error al capturar imagen.", Toast.LENGTH_SHORT).show()
+                    }
+                }
             }
         }
     }
+
 
     private fun getBookPhotoBitmap(): Bitmap? {
         val drawable = ivBookCover.drawable
@@ -259,5 +274,23 @@ class AddEditBookActivity : AppCompatActivity() {
                 dialog.dismiss()
             }
             .show()
+    }
+
+    private fun showImageSourceDialog() {
+        val options = arrayOf("Galería", "Cámara")
+        AlertDialog.Builder(this)
+            .setTitle("Seleccionar fuente de imagen")
+            .setItems(options) { _, which ->
+                when (which) {
+                    0 -> pickImageFromGallery()  // Galería
+                    1 -> captureImageFromCamera()  // Cámara
+                }
+            }
+            .show()
+    }
+
+    private fun captureImageFromCamera() {
+        val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+        startActivityForResult(intent, REQUEST_CODE_CAPTURE_IMAGE)
     }
 }
