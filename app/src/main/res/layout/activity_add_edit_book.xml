@@ -133,38 +133,40 @@
         android:id="@+id/btnEliminar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_eliminar"
         android:backgroundTint="#E0E0E0"
+        android:text="@string/btn_eliminar"
         android:textColor="@android:color/darker_gray"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toTopOf="@id/btnEnviar"
-        app:layout_constraintStart_toStartOf="@id/tilSynopsis"
-        app:layout_constraintEnd_toStartOf="@id/btnActualizar"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnActualizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_actualizar"
         android:backgroundTint="#E0E0E0"
+        android:text="@string/btn_actualizar"
         android:textColor="@android:color/darker_gray"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="@id/btnEliminar"
-        app:layout_constraintStart_toEndOf="@id/btnEliminar"
-        app:layout_constraintEnd_toEndOf="@id/tilSynopsis" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="56dp"
         android:backgroundTint="#8D6E63"
         android:text="@string/btn_send"
         android:textColor="@android:color/white"
         app:cornerRadius="20dp"
-        app:layout_constraintEnd_toEndOf="@id/btnEliminar"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@id/btnEliminar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/glButtons" />
 
     <com.google.android.material.button.MaterialButton
@@ -176,9 +178,11 @@
         android:text="@string/btn_cancel"
         android:textColor="@android:color/darker_gray"
         app:cornerRadius="20dp"
-        app:layout_constraintEnd_toEndOf="@id/btnActualizar"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@id/btnActualizar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/btnEnviar" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
