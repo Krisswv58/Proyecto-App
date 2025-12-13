@@ -35,11 +35,9 @@ class Util {
             return try {
                 val contentResolver = context.contentResolver
                 return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-
                     val source = ImageDecoder.createSource(contentResolver, uri)
                     ImageDecoder.decodeBitmap(source)
                 } else {
-
                     @Suppress("DEPRECATION")
                     MediaStore.Images.Media.getBitmap(contentResolver, uri)
                 }
@@ -51,7 +49,16 @@ class Util {
 
 
         fun cameraDataToBitmap(data: Intent?): Bitmap? {
-            return data?.extras?.get("data") as? Bitmap
+            val extras = data?.extras ?: return null
+
+            return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+
+                extras.getParcelable("data", Bitmap::class.java)
+            } else {
+
+                @Suppress("DEPRECATION")
+                extras.get("data") as? Bitmap
+            }
         }
     }
 }

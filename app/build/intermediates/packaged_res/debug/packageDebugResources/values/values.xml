@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="brown_light">#BCAAA4</color>
+    <color name="brown_primary">#8D6E63</color>
+    <color name="text_hint">#757575</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#424242</color>
     <color name="white">#FFFFFFFF</color>
     <string name="Content_Sinopsis">Contenido</string>
     <string name="DialogMessageDelete">¿Está seguro que desea eliminar este libro de su colección? Esta acción es irreversible.</string>
@@ -32,6 +37,7 @@
     <string name="btn_buscar">Buscar</string>
     <string name="btn_cancel">Cancelar</string>
     <string name="btn_continuar">continuar</string>
+    <string name="btn_delete">Eliminar</string>
     <string name="btn_editar">Editar</string>
     <string name="btn_eliminar">Eliminar</string>
     <string name="btn_login">Iniciar Sesión</string>
@@ -66,7 +72,10 @@
     <string name="validacion_titulo_vacio">El título no puede estar vacío</string>
     <style name="Base.Theme.Mybook" parent="Theme.Material3.DayNight.NoActionBar">
         
-        
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="colorPrimary">@color/brown_primary</item>
     </style>
     <style name="Theme.Mybook" parent="Base.Theme.Mybook"/>
 </resources>

@@ -8,6 +8,7 @@ class Libro {
     private var autor: String = ""
     private var descripcion: String = ""
     private var rutaPdf: String = ""
+    private var photoUrl: String = ""
     private var usuarioId: String = ""
     private lateinit var photo: Bitmap
     constructor(id: String, titulo: String, autor: String, descripcion: String, rutaPdf: String, usuarioId: String, photo: Bitmap) {
@@ -16,6 +17,7 @@ class Libro {
         this.Autor = autor
         this.Descripcion = descripcion
         this.RutaPdf = rutaPdf
+        this.PhotoUrl = ""
         this.UsuarioId = usuarioId
         this.Photo = photo
     }
@@ -35,6 +37,9 @@ class Libro {
     var RutaPdf: String
         get() = this.rutaPdf
         set(value) { this.rutaPdf = value }
+    var PhotoUrl: String
+        get() = this.photoUrl
+        set(value) { this.photoUrl = value }
     var UsuarioId: String
         get() = this.usuarioId
         set(value) { this.usuarioId = value }

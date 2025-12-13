@@ -62,4 +62,5 @@
     <string name="ErrorMsgImageLoad">Error loading image. Please try again.</string>
     <string name="ErrorMsgNoImageSelected">You must select an image for the book.</string>
     <string name="MsgNoResultsFound">No books were found with that title.</string>
+    <string name="btn_delete">Deleted</string>
 </resources>

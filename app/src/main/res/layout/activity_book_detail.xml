@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    >
+    android:background="#FFFFFF">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="24dp">
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24dp">
 
 
         <ImageView
@@ -60,38 +64,16 @@
             app:layout_constraintStart_toStartOf="@id/tvBookTitleDetail"
             app:layout_constraintEnd_toEndOf="@id/tvBookTitleDetail" />
 
-        <TextView
-            android:id="@+id/tvBookSeries"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:text="@string/series"
-            android:textColor="@android:color/darker_gray"
-            app:layout_constraintTop_toBottomOf="@id/tvBookAuthor"
-            app:layout_constraintStart_toStartOf="@id/tvBookTitleDetail"
-            app:layout_constraintEnd_toEndOf="@id/tvBookTitleDetail" />
-
-        <TextView
-            android:id="@+id/tvBookGenre"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:text="@string/Types"
-            android:textColor="@android:color/darker_gray"
-            app:layout_constraintTop_toBottomOf="@id/tvBookSeries"
-            app:layout_constraintStart_toStartOf="@id/tvBookTitleDetail"
-            app:layout_constraintEnd_toEndOf="@id/tvBookTitleDetail" />
-
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnContinue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:backgroundTint="#8D6E63"
             android:text="@string/btn_continuar"
-            android:backgroundTint="#E0E0E0"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="@android:color/white"
             app:cornerRadius="20dp"
-            app:layout_constraintTop_toBottomOf="@id/tvBookGenre"
+            app:layout_constraintTop_toBottomOf="@id/tvBookAuthor"
             app:layout_constraintStart_toStartOf="@id/tvBookTitleDetail" />
 
 
@@ -120,5 +102,28 @@
             app:layout_constraintStart_toStartOf="@id/tvSynopsisTitle"
             app:layout_constraintEnd_toEndOf="parent" />
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEditBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Editar información"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"
+            app:cornerRadius="20dp"
+            app:icon="@android:drawable/ic_menu_edit"
+            app:layout_constraintTop_toBottomOf="@id/tvSynopsisContent"
+            app:layout_constraintStart_toStartOf="@id/tvSynopsisTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
+<ProgressBar
+    android:id="@+id/progressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:visibility="gone" />
+
+</FrameLayout>

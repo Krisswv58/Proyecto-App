@@ -1,6 +1,11 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color brown_light
+color brown_primary
+color text_hint
+color text_primary
+color text_secondary
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -8,10 +13,13 @@ id appBarLayout
 id btnActualizar
 id btnCancelar
 id btnContinue
+id btnEditBook
 id btnEliminar
 id btnEnviar
 id btnIniciarSesion
 id btnManualEntry
+id btnNextPage
+id btnPreviousPage
 id btnRegistrarme
 id etAutor
 id etConfirmarContrasena
@@ -23,20 +31,21 @@ id etSynopsis
 id etTitulo
 id etUsuario
 id footerLayout
-id glButtons
 id headerLayout
 id ivBack
 id ivBookCover
 id ivBookCoverDetail
 id ivLogo
-id ivProfileLogo
+id ivMenu
+id ivPdfPage
 id ivToggleFlash
 id main
 id navigationControls
 id overlay
-id pageSeekBar
+id progressBar
 id rvBooks
 id scannerGuide
+id scrollViewPdf
 id tilAutor
 id tilConfirmarContrasena
 id tilContrasena
@@ -48,9 +57,8 @@ id tilTitulo
 id tilUsuario
 id toolbarPdf
 id tvBookAuthor
-id tvBookGenre
-id tvBookSeries
 id tvBookTitleDetail
+id tvEmptyState
 id tvPageNumber
 id tvScanInstruction
 id tvSynopsisContent
@@ -96,6 +104,7 @@ string btn_agregar_libro
 string btn_buscar
 string btn_cancel
 string btn_continuar
+string btn_delete
 string btn_editar
 string btn_eliminar
 string btn_login
@@ -132,3 +141,4 @@ style Base.Theme.Mybook
 style Theme.Mybook
 xml backup_rules
 xml data_extraction_rules
+xml file_paths

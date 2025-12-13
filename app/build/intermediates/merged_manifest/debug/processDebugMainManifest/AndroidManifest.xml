@@ -9,6 +9,8 @@
         android:targetSdkVersion="36" />
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="32" />
@@ -16,9 +18,15 @@
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="29" />
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <uses-feature
         android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
         android:required="false" />
 
     <permission
@@ -36,15 +44,13 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Mybook" >
         <activity
-            android:name="cr.ac.utn.mybook.AddEditBookActivity"
-            android:exported="true" />
-        <activity
-            android:name="cr.ac.utn.mybook.MainActivity"
+            android:name="cr.ac.utn.mybook.loginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,7 +58,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="cr.ac.utn.mybook.RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name="cr.ac.utn.mybook.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="cr.ac.utn.mybook.ScannerActivity"
+            android:exported="false" />
+        <activity
+            android:name="cr.ac.utn.mybook.BookViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name="cr.ac.utn.mybook.PdfReaderActivity"
+            android:exported="false" />
+        <activity
+            android:name="cr.ac.utn.mybook.AddEditBookActivity"
+            android:exported="false" />
+        <activity
+            android:name="cr.ac.utn.mybook.MainActivity"
+            android:exported="false" />
 
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="cr.ac.utn.mybook.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="cr.ac.utn.mybook.androidx-startup"
