@@ -1,102 +1,106 @@
 [
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\layout_activity_scan_book.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\layout\\activity_scan_book.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "cr.ac.utn.mybook.app-debug-34:/layout_activity_pdf_reader.xml.flat",
+        "source": "cr.ac.utn.mybook.app-main-36:/layout/activity_pdf_reader.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\layout_activity_pdf_reader.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\layout\\activity_pdf_reader.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\layout_activity_pdf_reader.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\layout\\activity_pdf_reader.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\layout_activity_book_detail.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\layout\\activity_book_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\layout_activity_book_detail.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\layout\\activity_book_detail.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "cr.ac.utn.mybook.app-debug-32:/layout_activity_register.xml.flat",
-        "source": "cr.ac.utn.mybook.app-main-34:/layout/activity_register.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\xml\\file_paths.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\layout_item_book.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\layout\\item_book.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\layout_activity_add_edit_book.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\layout\\activity_add_edit_book.xml"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\layout_activity_add_edit_book.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\layout\\activity_add_edit_book.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-32:\\layout_activity_scan_book.xml.flat",
-        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-34:\\layout\\activity_scan_book.xml"
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\layout_item_book.xml.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\layout\\item_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-debug-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Cristy\\.gradle\\daemon\\8.13\\cr.ac.utn.mybook.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     }
 ]

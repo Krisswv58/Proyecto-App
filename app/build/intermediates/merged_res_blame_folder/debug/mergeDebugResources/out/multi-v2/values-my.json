@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "cr.ac.utn.mybook.app-mergeDebugResources-30:/values-my/values-my.xml",
+            "outputFile": "cr.ac.utn.mybook.app-mergeDebugResources-32:/values-my/values-my.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Cristy\\.gradle\\caches\\8.13\\transforms\\b98da12cb285419290b2d68fd6febbab\\transformed\\core-1.13.0\\res\\values-my\\values-my.xml",

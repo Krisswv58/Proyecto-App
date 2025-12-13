@@ -1372,6 +1372,8 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color brown_light
+color brown_primary
 color button_material_dark
 color button_material_light
 color call_notification_answer_color
@@ -2074,6 +2076,9 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color text_hint
+color text_primary
+color text_secondary
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -3167,10 +3172,13 @@ id bounceStart
 id btnActualizar
 id btnCancelar
 id btnContinue
+id btnEditBook
 id btnEliminar
 id btnEnviar
 id btnIniciarSesion
 id btnManualEntry
+id btnNextPage
+id btnPreviousPage
 id btnRegistrarme
 id buttonPanel
 id cache_measures
@@ -3285,7 +3293,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
-id glButtons
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3319,7 +3327,8 @@ id ivBack
 id ivBookCover
 id ivBookCoverDetail
 id ivLogo
-id ivProfileLogo
+id ivMenu
+id ivPdfPage
 id ivToggleFlash
 id jumpToEnd
 id jumpToStart
@@ -3435,7 +3444,6 @@ id outward
 id overlay
 id overshoot
 id packed
-id pageSeekBar
 id parallax
 id parent
 id parentPanel
@@ -3450,6 +3458,7 @@ id pin
 id position
 id postLayout
 id pressed
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
@@ -3474,6 +3483,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollViewPdf
 id scrollable
 id search_badge
 id search_bar
@@ -3583,9 +3593,8 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvBookAuthor
-id tvBookGenre
-id tvBookSeries
 id tvBookTitleDetail
+id tvEmptyState
 id tvPageNumber
 id tvScanInstruction
 id tvSynopsisContent
@@ -3885,6 +3894,7 @@ string btn_agregar_libro
 string btn_buscar
 string btn_cancel
 string btn_continuar
+string btn_delete
 string btn_editar
 string btn_eliminar
 string btn_login
@@ -5321,3 +5331,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml file_paths
